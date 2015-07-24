@@ -174,6 +174,8 @@ void display_points()
 	//画面のキャプチャ
 	capture();
 
+	kinect::draw();
+
 	//移動平均
 	FIFOFilter();
 	//除算->データ格納
